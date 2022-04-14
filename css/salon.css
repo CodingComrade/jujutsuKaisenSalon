@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	line-height: 1;
+  max-width: 630px;
+  margin: 0 auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header li {
+  display: inline-block;
+  margin: 1% 2%;
+}
+
+.jujutsu {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.first {
+  margin: 0 5%;
+}
+
+header {
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+header ul {
+  text-transform: uppercase;
+}
+
+.main {
+  height: 50vh;
+  background-image: url(/Users/Chris/Downloads/class08-materials/class08-materials/gojo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 15% 90%;
+}
+
+.search {
+  width: 70%;
+}
+
+body > header > ul > li:nth-child(8), li:nth-child(9) {
+  margin: 0;
+}
+
+.mainIntro {
+  height: 100%;
+}
+
+.mainIntro h1 {
+  padding: 10% 0 0 10%;
+  font-size: 4rem;
+  color: darkred;
+  width: 40%;
+}
+
+.mainIntro > span {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 1% 10%;
+  color: darkgreen;
+}
+
+.mainIntro > a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 1% 10%;
+  background: black;
+  width: 15%;
+  padding: 1% 3%;
+}
+
+.mainVisit {
+  background: black;
+  width: 20%;
+  margin: 5% 10%;
+  color: white;
+  text-transform: uppercase;
+  height: 13vh;
+}
+
+.mainVisit h2 {
+  padding: 10% 0 0 5%;
+  border-left: 2px solid white;
+  margin-bottom: 5%;
+}
+
+.mainVisit > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  background: white;
+  padding: 4%;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.mainVisit span, .leftAd span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.mainVisit p {
+  padding-left: 5%;
+  margin-bottom: 10%;
+}
+
+.infoBoxes {
+  height: 25vh;
+}
+
+.triBox {
+  width: 20%;
+  float: left;
+  margin: 2% 5%;
+}
+
+.triBox p, .triBox h2 {
+  margin-left: 25%;
+}
+
+.triBox img {
+  margin-left: 35%;
+}
+
+.triBox h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.triBox p {
+  text-align: center;
+}
+
+.make {
+  clear: both;
+  background: indianred;
+  height: 30vh;
+}
+
+.left, .leftAd {
+  float: left;
+  width: 50%;
+}
+
+.right, .rightAd {
+  float: right;
+  width: 50%;
+}
+
+.left h2 {
+  font-size: 3rem;
+  margin: 10% 0 5% 30%;
+}
+
+.left p {
+  margin-left: 30%;
+  line-height: 1.5;
+}
+
+iframe {
+  margin: 20% 0 0 10%;
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 5% 0 0 30%;
+  width: 30%;
+  padding: 2% 3%;
+  background: black;
+}
+
+.artists {
+  height: 25vh;
+}
+
+.triArtists {
+  width: 20%;
+  float: left;
+  margin: 3% 0 0 10%;
+}
+
+.triArtists img {
+  width: 100%;
+}
+
+.ad {
+  clear: both;
+  width: 70%;
+  height: 30vh;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.ad img {
+  width: 100%;
+}
+
+.infoBar {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.infoBar h3 {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.leftAd h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkgreen;
+  text-transform: uppercase;
+}
+
+.leftAd p {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.leftAd a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 5%;
+  width: 50%;
+  padding: 4%;
+  background: black;
+  text-transform: uppercase;
+}
+
+.bottomHeader  {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.photos {
+  height: 100vh;
+}
+
+.bottom {
+  height: 100vh;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  height: 50vh;
+  margin: 0.5%;
+}
+
+.one, .three, .five {
+  height: 25vh;
+}
+
+.four {
+  clear: both;
+  margin-top: -24vh;
+}
+
+.six {
+  margin-top: -24vh;
+}
+
+.photos img {
+  height: 100%;
+  width: 100%;
+}
+
